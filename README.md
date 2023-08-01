@@ -25,6 +25,11 @@ UI组件：elmentplus/antd
 数据： gorm/sqlqlchemy/mybatisplus
 
 
+### 功能模块：
+
+- 传统模块
+- 云原生模块
+- AIops模块
 
 
 个人博客：
