@@ -1,42 +1,43 @@
-# xops
+<div align="center">
+  <img alt="xops Logo" width="120" height="120" src="xops-fe/src/assets/xops.png">
+  <h1>Xops </h1>
+   <span>English | <a href="./README.zh-CN.md">中文</a></span>
+</div>
 
-## 介绍
+## Frontend
 
-xops目标是链接开发和运营的管理平台，使用比较新的技术栈完成通用模块的开发。前后端尽量会适配不同语言，供大家参考学习！
+```bash
+# xops config
 
-### 版本：
+# clone the project
+git clone 
 
-测试阶段
+# frontend
+cd xops/xops-fe
 
-## 技术栈
+#  install dependencies
+pnpm i
 
-### 前端
+# run
+pnpm dev
+```
 
-框架：vue3/react
+## Git Commit Message Convention Reference
 
-语言：typescript
-
-构建：vite
-
-UI组件：elmentplus/antd
-
-### 后端
-
-语言：golang/python/java
-
-框架：gin/django/sprinboot
-
-数据： gorm/sqlqlchemy/mybatisplus
-
-
-### 功能模块：
-
-- 传统模块
-- 云原生模块
-- AIops模块
+- `feat` add new features
+- `fix` fix issues/bugs
+- `perf` optimize performance
+- `style` Change the code style without affecting the running results
+- `refactor` Refactor the code
+- `revert` undo changes
+- `test` Test-related and does not involve changes to  code
+- `docs` Documentation and comments are related
+- `chore` Updating dependencies/modifying scaffolding configurations and other trivia
+- `workflow` Workflow improvements
+- `ci` Continuous integration related
+- `types` Type definition file changes
 
 
-个人博客：
+## License
 
-<www.cillian.website>
-
+[MIT](./LICENSE)
