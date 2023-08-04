@@ -33,8 +33,8 @@ export default defineConfig({
         }),
       ],
       vueTemplate: true, // 是否在 vue 模板中自动导入
-      // dts: false
-      dts: path.resolve(pathSrc, 'auto-imports.d.ts'),
+      dts: false
+      // dts: path.resolve(pathSrc, 'auto-imports.d.ts'),
     }),
 
     Components({
@@ -48,9 +48,9 @@ export default defineConfig({
         // 自动导入 Element Plus 组件
         ElementPlusResolver(),
       ],
-      // dts: false
+      dts: false
       //模板项目的组件类型声明已自动生成。如果添加和使用新的组件，将注释打开。在自动生成完成后，记得将其设置为 false，避免重复执行引发冲突。
-      dts: path.resolve(pathSrc, 'components.d.ts'),
+      // dts: path.resolve(pathSrc, 'components.d.ts'),
     }),
 
     Icons({

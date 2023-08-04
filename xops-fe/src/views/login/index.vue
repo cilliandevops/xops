@@ -3,7 +3,7 @@
       <el-col :lg="16" :md="12" class="left">
         <div>
           <div>欢迎光临</div>
-          <div>Vue3 + ElementPlus 商城管理后台系统</div>
+          <div>xops管理后台系统</div>
         </div>
       </el-col>
       <el-col :lg="8" :md="12" class="right">

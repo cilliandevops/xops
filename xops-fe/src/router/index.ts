@@ -1,14 +1,14 @@
 import { 
   createRouter, 
   createWebHashHistory, 
-} from 'vue-router';
+  RouteRecordRaw} from 'vue-router';
 
 import Admin from "@/components/HelloWorld.vue"
 import Login from "@/views/login/index.vue"
 import NotFound from "@/views/error-page/404.vue"
 
 
-const routes = [
+export const constantRoutes: RouteRecordRaw[] = [
     {
         path: "/",
         name: "admin",
@@ -35,9 +35,14 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes,
+  routes: constantRoutes as RouteRecordRaw[],
+  // 刷新时，滚动条位置还原
+  scrollBehavior: () => ({ left: 0, top: 0 }),
   
 });
 
+export function resetRouter() {
+  router.replace({ path: "/login" });
+}
 
 export default router;
