@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+
+import UnoCSS from 'unocss/vite'
+
 import path from 'path'
 const pathSrc = path.resolve(__dirname, "src");
 
@@ -15,6 +18,7 @@ import IconsResolver from "unplugin-icons/resolver";
 export default defineConfig({
   plugins: [
     vue(),
+    UnoCSS(),
     AutoImport({
       // Auto import functions from Vue, e.g. ref, reactive, toRef...
       // 自动导入 Vue 相关函数，如：ref, reactive, toRef 等
@@ -60,7 +64,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-        "@": pathSrc
+        "@": pathSrc ,
+        
     }
 }
 })
