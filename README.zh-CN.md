@@ -65,6 +65,9 @@ UI组件：elmentplus/antd
 - 部署
 
 
+### 架构
+
+![Alt text](%E6%9E%B6%E6%9E%84.png)
 个人博客：
 
 <www.cillian.website>
