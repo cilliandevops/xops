@@ -67,7 +67,9 @@ UI组件：elmentplus/antd
 
 ### 架构
 
-![Alt text](%E6%9E%B6%E6%9E%84.png)
+![Alt text](xops-fe/public/frame.png)
+
+![Alt text](xops-fe/public/%E6%9E%B6%E6%9E%84.png)
 个人博客：
 
 <www.cillian.website>

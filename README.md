@@ -39,6 +39,7 @@ pnpm dev
 
 ## framework
 
+![Alt text](xops-fe/public/frame.png)
 
 ## Website
 
