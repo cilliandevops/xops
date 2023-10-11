@@ -1,13 +1,27 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+
 defineProps<{ msg: string }>()
 
 const count = ref(0)
 </script>
 
 <template>
-  <h1 class="text-blue-400">Vite+Vue</h1>
+    
+    <div class=" text-2xl i-logos-python w-4em h-3em transform transition-800"></div>
+    <div class=" text-2xl i-logos-go w-4em h-6em transform transition-800 "></div>
+    <div class=" text-2xl i-logos-java w-4em h-4em transform transition-800"></div>
+    <div class=" text-2xl i-logos-nodejs w-4em h-6em transform transition-800"></div>
+    <div class=" text-2xl i-logos-docker w-5em h-3em transform transition-800"></div>
+    <div class=" text-2xl i-logos-kubernetes w-4em h-3em transform transition-800"></div>
+
+    <div class="text-5xl  animate-bounce-alt animate-count-infinite animate-duration-2s text-purple-500" >
+      Cillian</div>
+    <!-- <div class="text-5xl  animate-bounce-alt animate-count-infinite animate-duration-1s text-blue" >
+      希里安
+    </div> -->
+  <h1 class="text-blue-400">Vite+Vue3+Ts+UnoCSS</h1>
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>

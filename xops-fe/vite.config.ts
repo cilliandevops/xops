@@ -1,7 +1,13 @@
 import { defineConfig } from 'vite'
+
+
 import vue from '@vitejs/plugin-vue'
 
 import UnoCSS from 'unocss/vite'
+// import presetIcons from '@unocss/preset-icons'
+// import presetUno from '@unocss/preset-uno'
+// import { FileSystemIconLoader } from '@iconify/utils/lib/loader/node-loaders'
+
 
 import path from 'path'
 const pathSrc = path.resolve(__dirname, "src");
@@ -18,7 +24,9 @@ import IconsResolver from "unplugin-icons/resolver";
 export default defineConfig({
   plugins: [
     vue(),
-    UnoCSS(),
+    UnoCSS(
+      { }
+      ),
     AutoImport({
       // Auto import functions from Vue, e.g. ref, reactive, toRef...
       // 自动导入 Vue 相关函数，如：ref, reactive, toRef 等
@@ -29,7 +37,6 @@ export default defineConfig({
       resolvers: [
 
         ElementPlusResolver(),
-
         // Auto import icon components
         // 自动导入图标组件
         IconsResolver({
@@ -40,7 +47,6 @@ export default defineConfig({
       dts: false
       // dts: path.resolve(pathSrc, 'auto-imports.d.ts'),
     }),
-
     Components({
       resolvers: [
         // Auto register icon components
@@ -56,7 +62,6 @@ export default defineConfig({
       //模板项目的组件类型声明已自动生成。如果添加和使用新的组件，将注释打开。在自动生成完成后，记得将其设置为 false，避免重复执行引发冲突。
       // dts: path.resolve(pathSrc, 'components.d.ts'),
     }),
-
     Icons({
       autoInstall: true,
     }),

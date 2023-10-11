@@ -3,22 +3,28 @@ import {
   createWebHashHistory, 
   RouteRecordRaw} from 'vue-router';
 
-import Admin from "@/components/HelloWorld.vue"
+import Test from "@/components/HelloWorld.vue"
 import Login from "@/views/login/index.vue"
 import NotFound from "@/views/error-page/404.vue"
+import Layout from "@/layout/index.vue"
 
 
 export const constantRoutes: RouteRecordRaw[] = [
     {
         path: "/",
-        name: "admin",
-        component: Admin,
+        name: "test",
+        component: Test,
     },
     {
         path: '/login',
         component: Login,
         meta: { title: "登录页" }
     },
+    {
+      path: '/layout',
+      component: Layout,
+      meta: { title: "布局" }
+  },
     {
       path: "/404",
       name: "NotFound",

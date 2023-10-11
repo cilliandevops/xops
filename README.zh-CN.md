@@ -31,6 +31,33 @@ pnpm i
 pnpm dev
 ```
 
+## 部署
+
+```js
+
+前端：
+pnpm build
+
+cp -r xops/xops-fe/dist/*  /usr/share/xops/xops-fe
+
+
+后端： 
+
+Docker 部署：
+
+前：
+
+docker run cilliandevops/xops-fe
+
+服务：
+
+docker run cilliandevops/xops-java
+docker run cilliandevops/xops-go
+docker run cilliandevops/xops-python
+
+
+```
+
 ## 技术栈
 
 ### 前端
@@ -73,3 +100,7 @@ UI组件：elmentplus/antd
 个人博客：
 
 <www.cillian.website>
+
+文档网址：
+
+<docs.cillian.website>
