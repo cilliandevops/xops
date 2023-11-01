@@ -1,7 +1,7 @@
 <!-- 2023年10月11日15:27:39 -->
 <template>
-    <div class="common-layout h-screen-lg w-screen-lg">
-      <el-container>
+    <div class="common-layout ">
+      <el-container >
         <el-aside width="200px" class="text-xl bg-blue h-screen-lg">Aside</el-aside>
         <el-container>
           <el-header class="text-blue bg-red-300 " >Header</el-header>

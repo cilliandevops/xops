@@ -38,4 +38,18 @@ Add src/types/env.d.ts
  vue-router                ^4.2.4  →   ^4.2.5
  vue-tsc                   ^1.8.8  →  ^1.8.18
  ```
- 
+  
+# [0.1.0-beta.5] - 2023年11月1日
+
+```js
+@types/node           ^20.8.3  →  ^20.8.10
+ @unocss/preset-icons  ^0.56.5  →   ^0.57.1
+ @unocss/preset-uno    ^0.56.5  →   ^0.57.1
+ element-plus          ^2.3.14  →    ^2.4.1
+ unocss                ^0.56.5  →   ^0.57.1
+ unplugin-auto-import  ^0.16.6  →   ^0.16.7
+ unplugin-icons        ^0.17.0  →   ^0.17.1
+ vite                  ^4.4.11  →    ^4.5.0
+ vue                    ^3.3.4  →    ^3.3.7
+ vue-tsc               ^1.8.18  →   ^1.8.22
+ ```
