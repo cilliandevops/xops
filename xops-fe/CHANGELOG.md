@@ -53,3 +53,20 @@ Add src/types/env.d.ts
  vue                    ^3.3.4  →    ^3.3.7
  vue-tsc               ^1.8.18  →   ^1.8.22
  ```
+
+
+ #   2023年11月22日11:44:50
+ ```js
+
+  @iconify-json/logos    ^1.1.37  →  ^1.1.38
+ @types/node           ^20.8.10  →  ^20.9.4
+ @unocss/preset-icons   ^0.57.1  →  ^0.57.7
+ @unocss/preset-uno     ^0.57.1  →  ^0.57.7
+ @vitejs/plugin-vue      ^4.4.0  →   ^4.5.0
+ element-plus            ^2.4.1  →   ^2.4.2
+ typescript              ^5.2.2  →   ^5.3.2
+ unocss                 ^0.57.1  →  ^0.57.7
+ unplugin-icons         ^0.17.1  →  ^0.17.4
+ vite                    ^4.5.0  →   ^5.0.2
+ vue                     ^3.3.7  →   ^3.3.8
+ ```
